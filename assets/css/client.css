@@ -1,0 +1,17 @@
+/**
+ * client.css
+ */
+
+/**
+ * Client Styles
+ */
+
+div.wp-site-blocks {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+div.wp-site-blocks > main {
+  flex: 1 1 auto;
+}

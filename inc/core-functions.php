@@ -1,0 +1,4 @@
+<?php
+/**
+ * Core functions
+ */
