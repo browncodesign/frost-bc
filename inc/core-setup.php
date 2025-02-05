@@ -108,13 +108,13 @@ add_action( 'init', 'frost_register_block_pattern_categories' );
 
 
 /**
- * Enqueue scripts and styles.
+ * Load CSS files
  */
-function bc_styles_scripts() {
+function bc_load_styles() {
   wp_enqueue_style( 'base-css', get_template_directory_uri() . '/assets/css/base.css', array(), filemtime( get_template_directory() . '/assets/css/base.css' ) );
   wp_enqueue_style( 'client-css', get_template_directory_uri() . '/assets/css/client.css', array(), filemtime( get_template_directory() . '/assets/css/client.css' ) );
 }
-add_action( 'wp_enqueue_scripts', 'bc_styles_scripts' );
+add_action( 'wp_enqueue_scripts', 'bc_load_styles' );
 
 
 /**

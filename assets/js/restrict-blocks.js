@@ -15,7 +15,6 @@ wp.domReady(function () {
   const allowedEmbedBlocks = [
     'facebook',
     'instagram',
-    'mixcloud',
     'soundcloud',
     'spotify',
     'twitter',

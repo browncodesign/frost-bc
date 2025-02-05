@@ -48,7 +48,7 @@ $styles = array( 'background-color: ' . $background_color, 'color: ' . $text_col
 $style  = implode( '; ', $styles );
 ?>
 
-<div <?php echo esc_attr( $anchor ); ?>class="<?php echo esc_attr( $class_name ); ?>" style="<?php echo esc_attr( $style ); ?>">
+<div <?php echo esc_attr( $anchor ); ?> class="<?php echo esc_attr( $class_name ); ?>" style="<?php echo esc_attr( $style ); ?>">
 	<div class="testimonial__col">
 		<blockquote class="testimonial__blockquote">
 			<?php echo esc_html( $quote ); ?>

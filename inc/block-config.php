@@ -10,9 +10,12 @@
  */
 function bc_native_block_allow( $allowed_block_types, $block_editor_context ) {
   $allowed_block_types = array(
+    // ACF blocks
+    'acf/testimonial',
+
+    // core blocks
     'core/audio',
     'core/buttons',
-    'core/code',
     'core/embed',
     'core/gallery',
     'core/heading',
@@ -21,10 +24,8 @@ function bc_native_block_allow( $allowed_block_types, $block_editor_context ) {
     'core/paragraph',
     'core/pullquote',
     'core/quote',
-    'core/search',
     'core/separator',
     'core/spacer',
-    'core/subhead',
     'core/table',
   );
   return $allowed_block_types;
